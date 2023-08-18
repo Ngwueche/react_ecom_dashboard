@@ -1,0 +1,57 @@
+@import '../../styles/variables.scss';
+
+.chartBox{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    .boxInfo{
+
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+
+        .title{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img{
+
+            }
+            span{
+
+            }
+        }
+        h1{
+
+        }
+        .viewAll{
+
+        }
+    }
+    .chartInfo{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        .chart{
+            height: 100%;
+        }
+        .texts{
+            display: flex;
+        flex-direction: column;
+        text-align: right;
+        gap: 10px;
+            .percentage{
+                font-size: 20px;
+                font-weight:bolder;
+
+            }
+            .duration{
+                font-size: 14px;
+            }
+        }
+    }
+}
